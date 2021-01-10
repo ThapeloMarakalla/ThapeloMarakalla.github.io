@@ -66,6 +66,23 @@ div.sections p, li{
     font-size: 25px;
 }
 
+img.align-left {
+    float: left;
+    margin-right: 40px;
+}
+
+img.contacts {
+    float: center;
+    text-align: center;
+    width: 50px;
+    margin: 0px auto}
+.center{
+    float: center;
+    text-align: center;
+    display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 500px) {
     .header a {
       float: none;
