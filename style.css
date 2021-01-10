@@ -35,8 +35,13 @@
 .header-right {
     float: right;
 }
-  
-  @media screen and (max-width: 500px) {
+
+.page {
+    background-color: 
+    hsla(0, 100%, 93%, 0.932);
+}
+
+@media screen and (max-width: 500px) {
     .header a {
       float: none;
       display: block;
