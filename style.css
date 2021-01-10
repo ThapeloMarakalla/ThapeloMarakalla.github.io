@@ -78,6 +78,17 @@ img.align-left {
     font-size: 25px;
 }
 
+#footer{
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: hsl(0, 100%, 13%);
+    color:white
+}
+
 @media screen and (max-width: 500px) {
     .header a {
       float: none;
