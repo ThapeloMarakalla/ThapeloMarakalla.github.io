@@ -1,0 +1,48 @@
+.header {
+    overflow: hidden;
+    background-color: hsl(0, 100%, 13%);
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 100px;
+}  
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    color:white;
+}
+  
+.header a.home {
+    font-size: 55px;
+    font-family: Copperplate, Papyrus;
+}
+  
+.header a:hover {
+    background-color: rgba(172, 67, 49, 0.466);
+    color: black;
+}
+  
+.header-right {
+    float: right;
+}
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+}
