@@ -286,10 +286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-.categories {
-	padding-bottom: 30px;
-	text-align: center;
-}
+
 ul.cat li {
 	display: inline-block;
 }
